@@ -4,13 +4,186 @@
   <title><![CDATA[West Wong]]></title>
   <link href="https://westwong0622.github.io/atom.xml" rel="self"/>
   <link href="https://westwong0622.github.io/"/>
-  <updated>2025-10-15T11:58:04+08:00</updated>
+  <updated>2025-10-16T18:07:05+08:00</updated>
   <id>https://westwong0622.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
     
   </author>
   <generator uri="http://www.mweb.im/">MWeb</generator>
+  
+  <entry>
+    <title type="html"><![CDATA[记录第一次直播]]></title>
+    <link href="https://westwong0622.github.io/17703719466606.html"/>
+    <updated>2026-02-06T17:59:06+08:00</updated>
+    <id>https://westwong0622.github.io/17703719466606.html</id>
+    <content type="html"><![CDATA[
+<ul>
+<li>今天尝试第一次直播，并写下笔记</li>
+<li>用的哔哩哔哩，其它的渠道以后再说</li>
+</ul>
+<h2><a id="%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>哔哩哔哩</h2>
+<ul>
+<li>背景：设备为 macOS</li>
+</ul>
+<h3><a id="%E5%9F%BA%E6%9C%AC%E6%AD%A5%E9%AA%A4" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>基本步骤</h3>
+<ul>
+<li>官网下载 b 站 macOS 客户端 <a href="https://app.bilibili.com">https://app.bilibili.com</a>
+<ul>
+<li>打开软件并登录</li>
+</ul>
+</li>
+<li>首页切换到直播模块，点击右下角直播按钮
+<ul>
+<li><img src="media/17703719466606/cc323d78c2611f572ae894038e0bd2cc_MD5.png" alt="cc323d78c2611f572ae894038e0bd2cc_MD5" /></li>
+<li>选择分享内容：类似于视频会议，可以选择全屏或某个窗口</li>
+<li>点击开始直播按钮
+<ul>
+<li>如果没有实名认证，会提醒实名认证</li>
+<li>用手机客户端扫码认证，认证很快的</li>
+</ul>
+</li>
+<li>点击分享直播间，测试一下
+<ul>
+<li>可以复制链接</li>
+<li>也可以用微信扫码查看</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3><a id="%E5%88%86%E4%BA%AB%E9%9F%B3%E9%A2%91" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>分享音频</h3>
+<ul>
+<li>如何分享其它软件声音，比如放点音乐
+<ul>
+<li>到 BlackHole 官网 <a href="https://existential.audio/blackhole">https://existential.audio/blackhole</a> 填写邮箱，可免费下载</li>
+<li>安装 BlackHole 并重启电脑（是驱动级别的软件！）</li>
+<li>重新开直播，并添加素材
+<ul>
+<li>选择音频设备</li>
+<li>选择 BlackHole 虚拟音频</li>
+</ul>
+</li>
+<li>打开 Control Center 并切换系统声音输出为 BlackHole
+<ul>
+<li>测试下直播链接能不能听到你放的音乐</li>
+<li>但是你的耳机就听不到了，哈哈</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>如何既可以把内置声音通过 BlackHole 播出去，同时可以自己听到？
+<ul>
+<li>通过 Spotlight 打开音频 MIDI 设置
+<ul>
+<li><img src="media/17703719466606/3544bb2fc13206627b51919ec23a3da9_MD5.png" alt="3544bb2fc13206627b51919ec23a3da9_MD5" /></li>
+<li>在左下角点 <code>＋</code> 号并选择 创建多输出设备</li>
+<li>在右侧勾选
+<ul>
+<li>✅ <strong>BlackHole</strong></li>
+<li>✅ <strong>你的耳机</strong>（USB / 蓝牙 / 有线都行</li>
+</ul>
+</li>
+<li>注意以下设置
+<ul>
+<li><strong>主设备</strong>：选你的耳机（防止延迟）</li>
+<li><strong>漂移校正</strong>：只给 BlackHole 勾上 ✅</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>打开 Control Center 并切换系统声音输出为 BlackHole 新建的「多输出设备」
+<ul>
+<li>测试下能不能同时听到</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3><a id="%E9%A2%9D%E5%A4%96%E7%9F%A5%E8%AF%86%E7%82%B9" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>额外知识点</h3>
+<ul>
+<li>下载 BlackHole 有 2ch、16ch 可以选，选什么？</li>
+<li>BlackHole 2ch 是什么
+<ul>
+<li>2ch = 双声道（左 / 右）的特点
+<ul>
+<li>🎧 和普通耳机 / 音箱一样</li>
+<li>🎵 Apple Music、网页音乐、视频，全是 2ch</li>
+<li>⚙️ 配置最简单</li>
+<li>🧠 几乎不可能配错</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>BlackHole 16ch 是什么
+<ul>
+<li>16ch = 16 路独立音频通道</li>
+<li>你可以拿它干嘛？举个真实场景 👇</li>
+</ul>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>通道</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ch1–2</td>
+<td>Apple Music</td>
+</tr>
+<tr>
+<td>ch3–4</td>
+<td>游戏声音</td>
+</tr>
+<tr>
+<td>ch5–6</td>
+<td>浏览器</td>
+</tr>
+<tr>
+<td>ch7–8</td>
+<td>提示音</td>
+</tr>
+<tr>
+<td>ch9–16</td>
+<td>备用</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>用一个类比你秒懂
+<ul>
+<li>2ch = 一个水龙头：打开就有水，怎么都不会错</li>
+<li>16ch = 一个 16 路水阀面板：很强，但你要知道每根管子接哪</li>
+</ul>
+</li>
+<li>默认选 2ch 就行</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[信息大爆炸时代的浏览器、笔记]]></title>
+    <link href="https://westwong0622.github.io/17666455054668.html"/>
+    <updated>2025-12-25T14:51:45+08:00</updated>
+    <id>https://westwong0622.github.io/17666455054668.html</id>
+    <content type="html"><![CDATA[
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[2025 冬季书荐]]></title>
+    <link href="https://westwong0622.github.io/17666440265073.html"/>
+    <updated>2025-12-25T14:27:06+08:00</updated>
+    <id>https://westwong0622.github.io/17666440265073.html</id>
+    <content type="html"><![CDATA[
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Git 多身份配置]]></title>
@@ -23,7 +196,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[基于 Web 技术栈的跨端开发模版]]></title>
+    <title type="html"><![CDATA[基于 Web 技术栈的跨端开发模版 (Next)]]></title>
     <link href="https://westwong0622.github.io/17601726071428.html"/>
     <updated>2025-10-11T16:50:07+08:00</updated>
     <id>https://westwong0622.github.io/17601726071428.html</id>
@@ -180,7 +353,7 @@ npx cap open android # 或 npx cap open ios
 </ul>
 <p>用过的读者朋友们在评论区留言分享其它使用场景吧。<br />
 要安装软件可以 <a href="https://f-droid.org/zh_Hans/packages/org.breezyweather/">点我</a> 前往下载页面，往下翻有 Download APK 按钮。不过我推荐使用 Droid-ify 下载安装哦。</p>
-<h3><a id="05-antennapod%EF%BC%9A%E8%AE%BA%E6%9C%8D%E5%8A%A1%EF%BC%8C%E5%B0%B1%E9%97%AE%E4%BD%A0%E6%9C%8D%E4%B8%8D%E6%9C%8D-google" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>05 AntennaPod：论服务，就问你服不服 Google</h3>
+<h3><a id="05-antennapod%EF%BC%9A%E8%AE%BA%E5%85%B3%E6%9C%8D%E5%8A%A1%EF%BC%8C%E5%B0%B1%E9%97%AE%E4%BD%A0%E6%9C%8D%E4%B8%8D%E6%9C%8D-google" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>05 AntennaPod：论关服务，就问你服不服 Google</h3>
 <p><img src="media/17601050444102/17604584486076.jpg" alt="AntennaPod" /></p>
 <p>Google 放弃播客后，我就在寻找一个替代品，最后留下了这个软件。</p>
 <ul>
@@ -259,7 +432,7 @@ npx cap open android # 或 npx cap open ios
 要安装软件可以 <a href="https://f-droid.org/zh_Hans/packages/com.activitymanager/">点我</a> 前往下载页面，往下翻有 Download APK 按钮。不过我推荐使用 Droid-ify 下载安装哦。</p>
 <h3><a id="09-language-selector%EF%BC%9A%E4%B8%BA%E5%BA%94%E7%94%A8%E8%AE%BE%E7%BD%AE%E7%8B%AC%E7%AB%8B%E7%9A%84%E7%95%8C%E9%9D%A2%E8%AF%AD%E8%A8%80" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>09 Language Selector：为应用设置独立的界面语言</h3>
 <p><img src="media/17601050444102/17604585491761.jpg" alt="Language Selector" /></p>
-<p>iOS 16 支持单独设置某应用的默认语言，在 Android 我用这个软件做同样的事。LineageOS 自带的不是所有语言都可以设置，所以我还是保留了这个应用。</p>
+<p>iOS 16 支持单独设置某应用的默认语言，在 Android 我用这个软件做同样的事。LineageOS 自带的不是所有应用都可以设置，所以我还是保留了这个应用。</p>
 <ul>
 <li>查看或搜索应用后选择默认显示的语言</li>
 </ul>
@@ -654,70 +827,6 @@ npx cap open android # 或 npx cap open ios
 <h2><a id="%E5%90%9B%E4%B8%BB%E8%AE%BA" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>君主论</h2>
 <p><img src="media/17043643777425/%E5%90%9B%E4%B8%BB%E8%AE%BA.png" alt="君主论" /></p>
 <p>作者马基雅维里 (1469-1527) ，近代政治思想的主要奠基人。在中世纪后期的政治思想家中，马基雅维里第一个明显地摆脱了神学和伦理学的束缚，为政治学和法学开辟了走向独立学科的道路。本书是马基雅维里的代表作，被誉为 “一本毁誉参半的奇书，一直被奉为欧洲历代君主的案头之书，政治家的最高指南，统治阶级巩固其统治的治国原则，人类有史以来对政治斗争技巧最独到最精辟的解剖”。本书自 1532 年开始印行，迄今 480 多年，被西方评论界列为是与《圣经》《资本论》等相提并论的、影响人类历史的十部著作之一</p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[2023 冬季书荐]]></title>
-    <link href="https://westwong0622.github.io/17007959324178.html"/>
-    <updated>2023-11-24T11:18:52+08:00</updated>
-    <id>https://westwong0622.github.io/17007959324178.html</id>
-    <content type="html"><![CDATA[
-<p>@王瑞青</p>
-<p><img src="media/17007959324178/2023%20%E5%86%AC%E5%AD%A3%E4%B9%A6%E8%8D%90.png" alt="2023 冬季书荐" /></p>
-<p>如下：</p>
-<p><img src="media/17007959324178/%E8%B4%A2%E5%8A%A1%E6%8A%A5%E8%A1%A8%E5%88%86%E6%9E%90%E4%B8%8E%E8%82%A1%E7%A5%A8%E4%BC%B0%E5%80%BC.png" alt="财务报表分析与股票估值" /></p>
-<p>作者郭永清，博士，上海国家会计学院教授，上海财经大学博士生导师，财政部企业会计准则咨询委员会委员，多家上市公司独立董事。长期从事会计标准与财务战略决策的研究与教学工作，在财务报表分析、企业全面风险管理和内部控制、会计准则解释与应用、公司估值、管理会计和财务战略决策等方面有比较深入的研究。著有《财务报表分析与股票估值》《管理会计实践》等</p>
-<hr />
-<p><img src="media/17007959324178/%E7%B9%81%E8%8D%A3%E4%B8%8E%E5%81%9C%E6%BB%9E.png" alt="繁荣与停滞" /><br />
-本书深入、细致、全面地介绍了日本经济从二战后至 21 世纪第二个十年的发展与转型历程，特别是通过高速增长实现起飞和赶超，应对经济崛起之后的贸易冲突、增速下降和人口老龄化，泡沫经济的产生、破灭与 “失去的 20 年”，以及之后的经济结构调整与转型，这有助于了解日本从贫困走向富裕的整个发展历程，并从中汲取经验和教训。严谨的学术训练和丰富的政策经验，使本书两位作者对日本经济的历史经验、主要特征、运行机制、面临的挑战与政策应对有着深刻的认识。本书是对日本经济发展历程全景式的描述和解释，适合对日本经济感兴趣的普通读者和专业人士阅读</p>
-<hr />
-<p><img src="media/17007959324178/%E6%B8%B8%E6%88%8F%E7%BB%93%E6%9D%9F.png" alt="游戏结束" /></p>
-<p>1983 年，雅达利冲击爆发，大量劣质游戏与疯狂的价格战，导致北美电子游戏市场陷入大萧条，行业营收自三十二亿美元一度骤降至一亿美元，跌幅高达 97%，大批游戏公司宣告破产。与此同时，位于日本京都、以花札起家的任天堂在山内溥掌舵下，于同年成功推出家用游戏主机红白机，继而于 1985 年将其推向大洋彼岸。由荒川实一手打造的北美任天堂，直面已成废墟的游戏行业及噤若寒蝉的零售渠道，打响一场史无前例的销售战役，几乎以一己之力重塑北美电子游戏市场。经过几年辛勤耕耘，任天堂不仅一举奠定龙头地位，还以严苛的权利金制度和首创的锁机芯片，构建起家用游戏机的基本商业模式，对现代电子游戏行业产生深远影响 ...</p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[2023 秋季书荐]]></title>
-    <link href="https://westwong0622.github.io/16880975074467.html"/>
-    <updated>2023-06-30T11:58:27+08:00</updated>
-    <id>https://westwong0622.github.io/16880975074467.html</id>
-    <content type="html"><![CDATA[
-<p>@王瑞青</p>
-<p><img src="media/16880975074467/2023%20%E7%A7%8B%E5%AD%A3%E4%B9%A6%E8%8D%90.png" alt="2023 秋季书荐" /></p>
-<p>如下：</p>
-<p><img src="media/16880975074467/%E8%81%AA%E6%98%8E%E7%9A%84%E6%8A%95%E8%B5%84%E8%80%85.png" alt="聪明的投资者" /></p>
-<p>本书着重介绍防御型投资者与积极型投资者的投资组合策略，论述了投资者如何应对市场波动。本书还对基金投资、投资者与投资顾问的关系、普通投资者证券分析的一般方法、防御型投资者与积极型投资者的证券选择、可转换证券及认股权证等问题进行了详细阐述</p>
-<p>TIP：本杰明·格雷厄姆，著有《证券分析》(1934 年) 和《聪明的投资者》(1949 年)，这两本书被公认为 “划时代的、里程碑式的投资圣经”</p>
-<hr />
-<p><img src="media/16880975074467/%E5%AE%89%E5%85%A8%E8%BE%B9%E9%99%85.png" alt="安全边际" /></p>
-<p>本书的书名取自本杰明·格雷厄姆经常强调的箴言：投资始终要有安全边际。作者卡拉曼在书中解释了价值投资理念，更重要的是，它解释了这一理念背后的逻辑，证明了为什么价值投资能够成功，而其他方法会失败。如果投资者认真遵循卡拉曼提供的方法，就非常有可能以有限的风险获得投资成功</p>
-<hr />
-<p><img src="media/16880975074467/%E8%82%A1%E5%B8%82%E7%9C%9F%E8%A7%84%E5%88%99.png" alt="股市真规则" /></p>
-<p>对于不愿意 “人云亦云” 的投资者来说，这本公认的个人投资理财圣经将为你指明方向，告诉你公司价值研究、股票估值和投资策略的秘密，它将帮助投资者挑选正确的股票、发现好的公司、理解不同行业背后的驱动力</p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[2023 夏季书荐]]></title>
-    <link href="https://westwong0622.github.io/16798868597216.html"/>
-    <updated>2023-03-27T11:14:19+08:00</updated>
-    <id>https://westwong0622.github.io/16798868597216.html</id>
-    <content type="html"><![CDATA[
-<p>@王瑞青</p>
-<p><img src="media/16798868597216/2023%E5%A4%8F%E5%AD%A3%E4%B9%A6%E8%8D%90.png" alt="2023夏季书荐" /></p>
-<p>如下：</p>
-<p><img src="media/16798868597216/%E5%A5%94%E8%B7%91%E5%90%A7%E7%A8%8B%E5%BA%8F%E5%91%98.png" alt="奔跑吧程序员" /></p>
-<p>本书以软件工程师出身的创业者的角度，全面介绍了创业公司该如何打造产品、实现技术和建立团队，既是为创业者打造的一份实用入门指南，又适合所有程序员系统认识 IT 行业。书中内容分为三部分 —— 技术、产品和团队，详细描绘创业的原始景象，具体内容包括：创业点子、产品设计、数据与营销、技术栈的选择、整洁的代码、软件交付、创业文化、招兵买马，等等</p>
-<hr />
-<p><img src="media/16798868597216/%E8%90%A5%E9%94%80%E7%AE%A1%E7%90%86.png" alt="营销管理" /></p>
-<p>营销管理是世界领先的营销学权威之一，西北大学凯洛格管理学院国际市场营销杰出教授（荣誉教授）菲利普·科特勒的最新作品版本。营销管理已畅销全球 55 年，被翻译为 20 多种语言，被誉为 “营销圣经”。本书分为七个部分，分别从营销管理的基本原理、了解市场、制定一个成功的营销战略、设计价值、传播价值、渠道价值、管理增长等七个方面展开阐述</p>
-<hr />
-<p><img src="media/16798868597216/%E5%A4%A7%E5%B8%88%E7%9A%84%E7%9B%9B%E5%AE%B4.png" alt="大师的盛宴" /></p>
-<p>本书共收录 27 篇上世纪最为优秀的 28 位科幻大师的短篇小说。从科幻的黄金时代，到锐意革新的新浪潮时代，再到天才辈出的多媒体时代，每个阶段的顶尖人物的作品均囊括其中，阵容可谓豪华无匹！科幻小说史上那些最为璀璨的巨星，诸如阿西莫夫、阿瑟·克拉克、海因莱因、雷·布拉德伯里、乔治·马丁、威廉·吉布森、勒古恩、希尔弗伯格、弗雷德里克·波尔等均赫然在列</p>
 
 ]]></content>
   </entry>
