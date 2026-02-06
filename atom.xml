@@ -4,13 +4,146 @@
   <title><![CDATA[West Wong]]></title>
   <link href="https://westwong0622.github.io/atom.xml" rel="self"/>
   <link href="https://westwong0622.github.io/"/>
-  <updated>2025-10-16T18:07:05+08:00</updated>
+  <updated>2026-02-06T18:04:48+08:00</updated>
   <id>https://westwong0622.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
     
   </author>
   <generator uri="http://www.mweb.im/">MWeb</generator>
+  
+  <entry>
+    <title type="html"><![CDATA[如何更新主页]]></title>
+    <link href="https://westwong0622.github.io/17703804902695.html"/>
+    <updated>2026-02-06T20:21:30+08:00</updated>
+    <id>https://westwong0622.github.io/17703804902695.html</id>
+    <content type="html"><![CDATA[
+<ul>
+<li>想更新下自己的主页，让新朋友更快认识自己</li>
+<li>找工作的时候，也能更高效地展示自己</li>
+</ul>
+<h2><a id="github" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>GitHub</h2>
+<h3><a id="%E5%BB%BA%E7%AB%8Bgithub%E4%B8%BB%E9%A1%B5" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>建立 GitHub 主页</h3>
+<ul>
+<li>建立一个和自己的 GitHub 账号同名的仓库即可</li>
+<li>比如 <a href="https://github.com/westwong0622/westwong0622">https://github.com/westwong0622/westwong0622</a></li>
+</ul>
+<h3><a id="%E5%80%9F%E9%89%B4%E4%BB%96%E4%BA%BAgithub%E4%B8%BB%E9%A1%B5" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>借鉴他人 GitHub 主页</h3>
+<ul>
+<li>比如 <a href="https://github.com/steipete/steipete">https://github.com/steipete/steipete</a>
+<ul>
+<li>然后按需编辑即可，本质就是 markdown 而已</li>
+</ul>
+</li>
+<li>或者你可以去看看更多人的
+<ul>
+<li><a href="https://github.com/topics/github-profile-readme">https://github.com/topics/github-profile-readme</a></li>
+</ul>
+</li>
+<li>或者你也可以用 GUI 工具，帮你生成
+<ul>
+<li><a href="https://github.com/rahuldkjain/github-profile-readme-generator">https://github.com/rahuldkjain/github-profile-readme-generator</a></li>
+</ul>
+</li>
+</ul>
+<h3><a id="%E5%BE%BD%E7%AB%A0%E5%B0%8F%E5%B7%A5%E5%85%B7" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>徽章小工具</h3>
+<ul>
+<li><a href="https://shields.io">https://shields.io</a> 用来生成美观、统一、易读的徽章 badges 图像
+<ul>
+<li>通常展示一些关键信息，例如：
+<ul>
+<li>项目构建状态（passing / failing）</li>
+<li>包版本号</li>
+<li>代码覆盖率</li>
+<li>下载次数</li>
+<li>许可协议</li>
+<li>依赖情况</li>
+<li>贡献者数量</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>比如</li>
+</ul>
+<pre class="line-numbers"><code class="language-less">![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&amp;logo=figma&amp;logoColor=white)
+</code></pre>
+<p><img src="media/17703804902695/0043ab67183ba918de19a32f21e83843_MD5.svg" alt="0043ab67183ba918de19a32f21e83843_MD5" /></p>
+<ul>
+<li>更多语法
+<ul>
+<li>参考别人的就行，修改链接里的部分
+<ul>
+<li>或者查看 <a href="https://shields.io/badges">https://shields.io/badges</a> 学习下</li>
+</ul>
+</li>
+<li>Figma 是文本</li>
+<li>后面的是颜色值，可以用工具找到，见下</li>
+<li>style 风格可以改为 <code>flat</code>, <code>flat-square</code>, <code>plastic</code>, <code>for-the-badge</code>, <code>social</code></li>
+<li>logo 需要你去搜索，见下
+<ul>
+<li><a href="https://simpleicons.org">https://simpleicons.org</a> 这个网站可以搜索图标，并复制这个品牌图标对应的颜色值，注意删掉 # 符号哦</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>看我改完后的图标</li>
+</ul>
+<pre class="line-numbers"><code class="language-less">![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white)
+</code></pre>
+<p><img src="media/17703804902695/361a8ee1caef0e75dbecd582452c362b_MD5.svg" alt="361a8ee1caef0e75dbecd582452c362b_MD5" /></p>
+<h3><a id="%E6%9F%A5%E6%89%BEemoji" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>查找 emoji</h3>
+<ul>
+<li>在 readme 中可能会用到 emoji，你可以用 <a href="https://emojipedia.org">https://emojipedia.org</a> 来查找
+<ul>
+<li>输入法好烂啊，你懂的</li>
+</ul>
+</li>
+<li>不止 GitHub 里的 markdown 会用到 emoji，凡是有文本的地方，你都可以尝试用
+<ul>
+<li>注意不要太多哦，不然会妨碍阅读</li>
+</ul>
+</li>
+</ul>
+<h2><a id="bonjour" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bonjour</h2>
+<ul>
+<li>打开微信，扫码打开 Bonjour 小程序
+<ul>
+<li>刚上来可能要输一些基本信息</li>
+</ul>
+</li>
+<li>在我页面点击编辑主页
+<ul>
+<li>修改状态：比如你想打 hackathon
+<ul>
+<li>可以找人，bojour 会给你推荐哦</li>
+</ul>
+</li>
+<li>修改个人简介：一段纯文本</li>
+<li>可以添加手机号、微信二维码图片：这个真的不错！</li>
+<li>修改一些 tag：你的职业、技能、所在城市、MBTI 等等</li>
+<li>往下就是 bento 形式的 block 了，你可以自由祝贺
+<ul>
+<li>可以添加标题、文本</li>
+<li>可以添加网址（你做的项目），app store 链接、公众号也行</li>
+<li>可以添加图片（各种图片，你的自拍都行）</li>
+<li>添加一些职业经历、人生经历啥的</li>
+<li>最后就是你的 connect 方式了
+<ul>
+<li>种类很多！！！</li>
+<li>社交媒体、开发者平台、设计平台、图文视频创作平台</li>
+<li>竟然还可以添加捐赠方式。。。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>看看我的 bonjour</li>
+</ul>
+<p><img src="media/17703804902695/Picsew_20260206201826.JPEG" alt="Picsew_20260206201826" /></p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[记录第一次直播]]></title>
@@ -805,28 +938,6 @@ npx cap open android # 或 npx cap open ios
 <h2><a id="%E5%AF%BB%E8%8E%B7%E4%B8%8E%E5%A4%B1%E8%90%BD" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>寻获与失落</h2>
 <p><img src="media/17181637581908/%E5%AF%BB%E8%8E%B7%E4%B8%8E%E5%A4%B1%E8%90%BD.png" alt="寻获与失落" /></p>
 <p>汇集十三部中篇，囊括五种世界观，一书纵览勒古恩写作全景。二十世纪中后期，在经济萧条、美苏冷战、核战威胁、太空竞赛、生物实验、环境污染等阴影的笼罩之下，一路高歌的科技进步幻觉被打破，人们开始重新思考科技发展，以及并不一定光明的人类未来，科幻文学的书写方式也随之一变，为 “黄金时代” 的 “硬” 科幻注入了丰富的人文主义色彩</p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[2024 春季书荐]]></title>
-    <link href="https://westwong0622.github.io/17043643777425.html"/>
-    <updated>2024-01-04T18:32:57+08:00</updated>
-    <id>https://westwong0622.github.io/17043643777425.html</id>
-    <content type="html"><![CDATA[
-<p>@王瑞青</p>
-<p><img src="media/17043643777425/2024%20%E6%98%A5%E5%AD%A3%E4%B9%A6%E8%8D%90.png" alt="2024 春季书荐" /></p>
-<p>三本书如下</p>
-<h2><a id="%E5%88%9B%E9%80%A0%E6%96%B0%E6%97%A5%E6%9C%AC" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>创造新日本</h2>
-<p><img src="media/17043643777425/%E5%88%9B%E9%80%A0%E6%96%B0%E6%97%A5%E6%9C%AC.png" alt="创造新日本" /></p>
-<p>日本，紧凑、同质、紧密团结，害怕无序；美国，庞大、开放，害怕经济危机，不断谋求国际市场。本书即讲述了自 1853 年以来这两个国家之间的分歧、冲突、战争与合作，以及其背后的爱恨故事。通过运用美日两国的文献材料，拉夫伯尔为我们呈现了重新武装日本背后的曲折、现代美日贸易谈判中的紧张、日本在为美国巨额赤字提供资金方面的持续重要性，以及两国开拓中国市场的动力</p>
-<h2><a id="%E7%A4%BE%E4%BC%9A%E5%A5%91%E7%BA%A6%E8%AE%BA" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>社会契约论</h2>
-<p><img src="media/17043643777425/%E7%A4%BE%E4%BC%9A%E5%A5%91%E7%BA%A6%E8%AE%BA.png" alt="社会契约论" /></p>
-<p>本书是十八世纪法国启蒙思想家、法国大革命的思想先驱卢梭 (1712-1778) 的一部政治哲学著作。它探讨的是政治权利的原理，它的主旨是为人民民主主权的建立奠定理论基础。本书分为四卷：第一卷论述了社会结构和社会契约，第二卷阐述主权及其权利，第三卷阐述政府及其运作形式，第四卷讨论几种社会组织。书中所提倡的民主理论很快风靡世界，不仅引发了震惊世界的法国大革命，亦为美国《独立宣言》、法国《人权宣言》等奠定了理论基础。本书第一次提出了“天赋人权”和“主权在民”的思想，后者是现代民主制度的基石</p>
-<h2><a id="%E5%90%9B%E4%B8%BB%E8%AE%BA" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>君主论</h2>
-<p><img src="media/17043643777425/%E5%90%9B%E4%B8%BB%E8%AE%BA.png" alt="君主论" /></p>
-<p>作者马基雅维里 (1469-1527) ，近代政治思想的主要奠基人。在中世纪后期的政治思想家中，马基雅维里第一个明显地摆脱了神学和伦理学的束缚，为政治学和法学开辟了走向独立学科的道路。本书是马基雅维里的代表作，被誉为 “一本毁誉参半的奇书，一直被奉为欧洲历代君主的案头之书，政治家的最高指南，统治阶级巩固其统治的治国原则，人类有史以来对政治斗争技巧最独到最精辟的解剖”。本书自 1532 年开始印行，迄今 480 多年，被西方评论界列为是与《圣经》《资本论》等相提并论的、影响人类历史的十部著作之一</p>
 
 ]]></content>
   </entry>
