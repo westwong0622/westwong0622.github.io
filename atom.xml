@@ -4,7 +4,7 @@
   <title><![CDATA[West Wong]]></title>
   <link href="https://westwong0622.github.io/atom.xml" rel="self"/>
   <link href="https://westwong0622.github.io/"/>
-  <updated>2026-02-06T18:04:48+08:00</updated>
+  <updated>2026-02-07T12:08:49+08:00</updated>
   <id>https://westwong0622.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -13,287 +13,361 @@
   <generator uri="http://www.mweb.im/">MWeb</generator>
   
   <entry>
-    <title type="html"><![CDATA[如何更新主页]]></title>
+    <title type="html"><![CDATA[直播第一天 - 如何更新个人主页]]></title>
     <link href="https://westwong0622.github.io/17703804902695.html"/>
     <updated>2026-02-06T20:21:30+08:00</updated>
     <id>https://westwong0622.github.io/17703804902695.html</id>
     <content type="html"><![CDATA[
+<h2><a id="%E4%B8%80%E3%80%81github%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>一、GitHub 个人主页</h2>
+<h3><a id="1%E5%BB%BA%E7%AB%8B-github%E4%B8%BB%E9%A1%B5" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>1. 建立 GitHub 主页</h3>
+<p>要建立 GitHub 个人主页，其实非常简单：</p>
+<ol>
+<li>新建一个 <strong>和你 GitHub 账号同名的仓库</strong></li>
+<li>仓库名必须完全一致（大小写也一致）</li>
+<li>在仓库里创建 <code>README.md</code></li>
+</ol>
+<p>例如我的：<a href="https://github.com/westwong0622/westwong0622">https://github.com/westwong0622/westwong0622</a></p>
+<p>只要仓库存在，GitHub 就会自动把这个 README 渲染成你的个人主页</p>
+<h3><a id="2%E5%80%9F%E9%89%B4%E4%BB%96%E4%BA%BA%E7%9A%84-github%E4%B8%BB%E9%A1%B5" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>2. 借鉴他人的 GitHub 主页</h3>
+<p>如果你不知道怎么写，可以直接「抄」，模仿是进步的阶梯</p>
+<p>几个不错的参考方式：</p>
+<p><strong>方式一：直接参考优秀个人主页</strong></p>
 <ul>
-<li>想更新下自己的主页，让新朋友更快认识自己</li>
-<li>找工作的时候，也能更高效地展示自己</li>
+<li>示例：<a href="https://github.com/steipete/steipete">https://github.com/steipete/steipete</a></li>
+<li>下载或复制他的 README，按需改内容即可</li>
+<li>本质就是 Markdown，没有任何黑魔法</li>
 </ul>
-<h2><a id="github" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>GitHub</h2>
-<h3><a id="%E5%BB%BA%E7%AB%8Bgithub%E4%B8%BB%E9%A1%B5" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>建立 GitHub 主页</h3>
+<p><strong>方式二：看更多模板</strong></p>
 <ul>
-<li>建立一个和自己的 GitHub 账号同名的仓库即可</li>
-<li>比如 <a href="https://github.com/westwong0622/westwong0622">https://github.com/westwong0622/westwong0622</a></li>
-</ul>
-<h3><a id="%E5%80%9F%E9%89%B4%E4%BB%96%E4%BA%BAgithub%E4%B8%BB%E9%A1%B5" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>借鉴他人 GitHub 主页</h3>
+<li>GitHub 官方主题库：<a href="https://github.com/topics/github-profile-readme">https://github.com/topics/github-profile-readme</a></li>
+<li>能看到各种风格：
 <ul>
-<li>比如 <a href="https://github.com/steipete/steipete">https://github.com/steipete/steipete</a>
-<ul>
-<li>然后按需编辑即可，本质就是 markdown 而已</li>
+<li>极简型</li>
+<li>技术栈型</li>
+<li>数据统计型</li>
+<li>个人介绍型</li>
 </ul>
 </li>
-<li>或者你可以去看看更多人的
+</ul>
+<p><strong>方式三：用 GUI 工具生成</strong></p>
 <ul>
-<li><a href="https://github.com/topics/github-profile-readme">https://github.com/topics/github-profile-readme</a></li>
+<li>README 生成器：<a href="https://github.com/rahuldkjain/github-profile-readme-generator">https://github.com/rahuldkjain/github-profile-readme-generator</a></li>
+<li>适合：
+<ul>
+<li>不想折腾 Markdown</li>
+<li>想快速生成一个能看的主页</li>
 </ul>
 </li>
-<li>或者你也可以用 GUI 工具，帮你生成
-<ul>
-<li><a href="https://github.com/rahuldkjain/github-profile-readme-generator">https://github.com/rahuldkjain/github-profile-readme-generator</a></li>
+<li>生成后再自己微调即可</li>
 </ul>
-</li>
+<h3><a id="3%E5%BE%BD%E7%AB%A0%EF%BC%88-badges%EF%BC%89%E5%B0%8F%E5%B7%A5%E5%85%B7" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>3. 徽章（Badges）小工具</h3>
+<p>徽章是 GitHub README 的灵魂之一 😊</p>
+<h4><a id="3-1-shields-io%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>3.1 Shields.io 是什么？</h4>
+<ul>
+<li>官网：<a href="https://shields.io/">https://shields.io</a></li>
+<li>用来生成 <strong>统一、美观、可读性强</strong> 的徽章图片</li>
 </ul>
-<h3><a id="%E5%BE%BD%E7%AB%A0%E5%B0%8F%E5%B7%A5%E5%85%B7" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>徽章小工具</h3>
-<ul>
-<li><a href="https://shields.io">https://shields.io</a> 用来生成美观、统一、易读的徽章 badges 图像
-<ul>
-<li>通常展示一些关键信息，例如：
+<p>常见展示内容包括：</p>
 <ul>
 <li>项目构建状态（passing / failing）</li>
 <li>包版本号</li>
 <li>代码覆盖率</li>
 <li>下载次数</li>
-<li>许可协议</li>
-<li>依赖情况</li>
+<li>License</li>
+<li>技术栈</li>
 <li>贡献者数量</li>
 </ul>
-</li>
-</ul>
-</li>
-<li>比如</li>
-</ul>
+<h4><a id="3-2%E4%B8%80%E4%B8%AA%E6%9C%80%E7%AE%80%E5%8D%95%E7%9A%84%E4%BE%8B%E5%AD%90" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>3.2 一个最简单的例子</h4>
 <pre class="line-numbers"><code class="language-less">![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&amp;logo=figma&amp;logoColor=white)
 </code></pre>
 <p><img src="media/17703804902695/0043ab67183ba918de19a32f21e83843_MD5.svg" alt="0043ab67183ba918de19a32f21e83843_MD5" /></p>
+<p>核心结构拆解一下：</p>
 <ul>
-<li>更多语法
+<li><code>Figma</code>：显示文本</li>
+<li><code>F24E1E</code>：背景色（十六进制，去掉 # 号）</li>
+<li><code>style</code>：可以使用 <code>flat</code>, <code>flat-square</code>, <code>plastic</code>, <code>for-the-badge</code>, `social</li>
+<li><code>logo</code>：品牌图标</li>
+<li><code>logoColor</code>：图标颜色</li>
+</ul>
+<h4><a id="3-3%E5%8E%BB%E5%93%AA%E9%87%8C%E6%89%BE-logo%E5%92%8C%E9%A2%9C%E8%89%B2%EF%BC%9F" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>3.3 去哪里找 logo 和颜色？</h4>
+<p>推荐两个地方：</p>
+<ol>
+<li><strong>Simple Icons</strong> <a href="https://simpleicons.org/">https://simpleicons.org</a>
 <ul>
-<li>参考别人的就行，修改链接里的部分
-<ul>
-<li>或者查看 <a href="https://shields.io/badges">https://shields.io/badges</a> 学习下</li>
+<li>搜索品牌</li>
+<li>复制官方推荐颜色</li>
+<li>注意：复制后要把 <code>#</code> 删掉</li>
 </ul>
 </li>
-<li>Figma 是文本</li>
-<li>后面的是颜色值，可以用工具找到，见下</li>
-<li>style 风格可以改为 <code>flat</code>, <code>flat-square</code>, <code>plastic</code>, <code>for-the-badge</code>, <code>social</code></li>
-<li>logo 需要你去搜索，见下
+<li><strong>直接参考别人 README</strong>
 <ul>
-<li><a href="https://simpleicons.org">https://simpleicons.org</a> 这个网站可以搜索图标，并复制这个品牌图标对应的颜色值，注意删掉 # 符号哦</li>
+<li>抄 URL</li>
+<li>改文字和颜色即可</li>
 </ul>
 </li>
-</ul>
-</li>
-<li>看我改完后的图标</li>
-</ul>
+</ol>
+<h4><a id="3-4%E7%9C%8B%E6%88%91%E6%94%B9%E5%AE%8C%E5%90%8E%E7%9A%84%E7%A4%BA%E4%BE%8B" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>3.4 看我改完后的示例</h4>
 <pre class="line-numbers"><code class="language-less">![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white)
 </code></pre>
 <p><img src="media/17703804902695/361a8ee1caef0e75dbecd582452c362b_MD5.svg" alt="361a8ee1caef0e75dbecd582452c362b_MD5" /></p>
-<h3><a id="%E6%9F%A5%E6%89%BEemoji" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>查找 emoji</h3>
+<h3><a id="4%E6%9F%A5%E6%89%BE-emoji" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>4. 查找 emoji</h3>
+<p>README 里偶尔加一点 emoji 会更有「人味」<br />
+另外，自带输入法好烂哦，不太容易找到自己想要的 emoji，你懂的</p>
 <ul>
-<li>在 readme 中可能会用到 emoji，你可以用 <a href="https://emojipedia.org">https://emojipedia.org</a> 来查找
+<li>推荐网站：<a href="https://emojipedia.org/">https://emojipedia.org</a></li>
+<li>直接搜索关键词复制即可</li>
+<li>小建议：
 <ul>
-<li>输入法好烂啊，你懂的</li>
-</ul>
-</li>
-<li>不止 GitHub 里的 markdown 会用到 emoji，凡是有文本的地方，你都可以尝试用
-<ul>
-<li>注意不要太多哦，不然会妨碍阅读</li>
-</ul>
-</li>
-</ul>
-<h2><a id="bonjour" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bonjour</h2>
-<ul>
-<li>打开微信，扫码打开 Bonjour 小程序
-<ul>
-<li>刚上来可能要输一些基本信息</li>
-</ul>
-</li>
-<li>在我页面点击编辑主页
-<ul>
-<li>修改状态：比如你想打 hackathon
-<ul>
-<li>可以找人，bojour 会给你推荐哦</li>
-</ul>
-</li>
-<li>修改个人简介：一段纯文本</li>
-<li>可以添加手机号、微信二维码图片：这个真的不错！</li>
-<li>修改一些 tag：你的职业、技能、所在城市、MBTI 等等</li>
-<li>往下就是 bento 形式的 block 了，你可以自由祝贺
-<ul>
-<li>可以添加标题、文本</li>
-<li>可以添加网址（你做的项目），app store 链接、公众号也行</li>
-<li>可以添加图片（各种图片，你的自拍都行）</li>
-<li>添加一些职业经历、人生经历啥的</li>
-<li>最后就是你的 connect 方式了
-<ul>
-<li>种类很多！！！</li>
-<li>社交媒体、开发者平台、设计平台、图文视频创作平台</li>
-<li>竟然还可以添加捐赠方式。。。</li>
+<li>别过多使用 emoji，不要妨碍阅读</li>
+<li>小心加多了有 ChatGPT 味哦</li>
 </ul>
 </li>
 </ul>
+<p>btw：emoji 不只 GitHub 能用，<strong>所有支持文本的地方基本都能用</strong></p>
+<h2><a id="%E4%BA%8C%E3%80%81bonjour%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>二、Bonjour 个人主页</h2>
+<h3><a id="1%E6%89%93%E5%BC%80%E6%96%B9%E5%BC%8F" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>1. 打开方式</h3>
+<ul>
+<li>打开微信搜索 <strong>Bonjour 小程序</strong></li>
+<li>首次使用需要填写一些基础信息</li>
+</ul>
+<h3><a id="2%E7%BC%96%E8%BE%91%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>2. 编辑个人主页</h3>
+<p>在「我的页面」点击 <strong>编辑主页</strong>，你可以做这些事情：</p>
+<p><strong>1. 修改状态</strong></p>
+<ul>
+<li>比如：
+<ul>
+<li>想打 hackathon</li>
+<li>找合作伙伴</li>
+</ul>
+</li>
+<li>Bonjour 可以根据需求给你推荐人哦</li>
+</ul>
+<p><strong>2. 修改个人简介</strong></p>
+<ul>
+<li>一段纯文本介绍</li>
+<li>建议：
+<ul>
+<li>你是谁</li>
+<li>你在做什么</li>
+<li>你想连接什么样的人</li>
+</ul>
+</li>
+</ul>
+<p><strong>3. 联系方式</strong></p>
+<ul>
+<li>可添加：
+<ul>
+<li>手机号</li>
+<li>微信二维码图片</li>
+</ul>
+</li>
+<li>非常实用，转化率很高</li>
+</ul>
+<p><strong>4. 添加标签（Tags）</strong></p>
+<p>例如：</p>
+<ul>
+<li>职业：产品经理、设计师、独立开发者</li>
+<li>技能：设计、Web 开发、iOS 开发、3D 建模</li>
+<li>所在城市：川陀、南京</li>
+<li>MBTI：INTP</li>
+<li>兴趣方向：Si-Fi、古典乐</li>
+</ul>
+<h3><a id="3-bento%E9%A3%8E%E6%A0%BC%E5%86%85%E5%AE%B9%E5%8C%BA%EF%BC%88%E9%87%8D%E7%82%B9%EF%BC%89" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>3. Bento 风格内容区（重点）</h3>
+<p>下面是自由度最高的部分：</p>
+<p>你可以添加：</p>
+<ul>
+<li>标题、文本</li>
+<li>网址（项目官网、App Store、公众号）、Side Project！</li>
+<li>图片（项目图、生活照、自拍都行）</li>
+<li>职业经历、人生经历</li>
+<li>Connect 区域
+<ul>
+<li>支持非常多的平台</li>
+<li>包括：
+<ul>
+<li>社交媒体</li>
+<li>开发者平台</li>
+<li>设计平台</li>
+<li>图文 / 视频创作平台</li>
+</ul>
 </li>
 </ul>
 </li>
-<li>看看我的 bonjour</li>
+<li>甚至还能添加捐赠方式（感觉我很需要，😂）</li>
 </ul>
-<p><img src="media/17703804902695/Picsew_20260206201826.JPEG" alt="Picsew_20260206201826" /></p>
+<h3><a id="4%E6%88%91%E7%9A%84-bonjour%E7%A4%BA%E4%BE%8B" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>4. 我的 Bonjour 示例</h3>
+<p>我的 bonjour 链接：<a href="#%E5%B0%8F%E7%A8%8B%E5%BA%8F://Bonjour/zt6ZsdRhTL3glir">#小程序://Bonjour/zt6ZsdRhTL3glir</a></p>
+<p><img src="media/17703804902695/bonjour_westwong0622.jpeg" alt="bonjour_westwong0622" /></p>
+<h2><a id="%E6%80%BB%E7%BB%93" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>总结</h2>
+<ul>
+<li>GitHub README：偏 <strong>技术名片</strong></li>
+<li>Bonjour：偏 <strong>社交名片</strong></li>
+<li>两个一起用，效果非常好</li>
+</ul>
 
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[记录第一次直播]]></title>
+    <title type="html"><![CDATA[直播第一天 - 记录第一次直播]]></title>
     <link href="https://westwong0622.github.io/17703719466606.html"/>
     <updated>2026-02-06T17:59:06+08:00</updated>
     <id>https://westwong0622.github.io/17703719466606.html</id>
     <content type="html"><![CDATA[
+<p>今天尝试了第一次直播，顺手 <strong>把过程和踩坑记下来</strong><br />
+平台先用 <strong>哔哩哔哩</strong>，其他渠道以后再折腾</p>
+<p>我的哔哩哔哩主页：<a href="https://space.bilibili.com/230454104">https://space.bilibili.com/230454104</a></p>
+<h2><a id="%E4%B8%80%E3%80%81%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E7%9B%B4%E6%92%AD%EF%BC%88macos%E7%8E%AF%E5%A2%83%EF%BC%89" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>一、哔哩哔哩直播（macOS 环境）</h2>
+<h3><a id="1%E5%9F%BA%E6%9C%AC%E5%87%86%E5%A4%87" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>1. 基本准备</h3>
 <ul>
-<li>今天尝试第一次直播，并写下笔记</li>
-<li>用的哔哩哔哩，其它的渠道以后再说</li>
+<li>设备：macOS</li>
+<li>平台：哔哩哔哩官方客户端</li>
 </ul>
-<h2><a id="%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>哔哩哔哩</h2>
+<h3><a id="2%E5%9F%BA%E6%9C%AC%E6%AD%A5%E9%AA%A4" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>2. 基本步骤</h3>
+<p><img src="media/17703719466606/cc323d78c2611f572ae894038e0bd2cc_MD5.png" alt="cc323d78c2611f572ae894038e0bd2cc_MD5" /></p>
+<p><strong>第一步：下载安装客户端</strong></p>
 <ul>
-<li>背景：设备为 macOS</li>
+<li>访问官网：<a href="https://app.bilibili.com/">https://app.bilibili.com</a></li>
+<li>下载并安装 macOS 客户端</li>
+<li>打开软件并登录账号</li>
 </ul>
-<h3><a id="%E5%9F%BA%E6%9C%AC%E6%AD%A5%E9%AA%A4" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>基本步骤</h3>
+<p><strong>第二步：进入直播模式</strong></p>
 <ul>
-<li>官网下载 b 站 macOS 客户端 <a href="https://app.bilibili.com">https://app.bilibili.com</a>
+<li>首页切换到「直播」模块</li>
+<li><strong>点击右下角的「开始直播」按钮</strong></li>
+<li>选择分享内容，和视频会议类似
 <ul>
-<li>打开软件并登录</li>
-</ul>
-</li>
-<li>首页切换到直播模块，点击右下角直播按钮
-<ul>
-<li><img src="media/17703719466606/cc323d78c2611f572ae894038e0bd2cc_MD5.png" alt="cc323d78c2611f572ae894038e0bd2cc_MD5" /></li>
-<li>选择分享内容：类似于视频会议，可以选择全屏或某个窗口</li>
-<li>点击开始直播按钮
-<ul>
-<li>如果没有实名认证，会提醒实名认证</li>
-<li>用手机客户端扫码认证，认证很快的</li>
-</ul>
-</li>
-<li>点击分享直播间，测试一下
-<ul>
-<li>可以复制链接</li>
-<li>也可以用微信扫码查看</li>
+<li>全屏</li>
+<li>或指定某个窗口</li>
 </ul>
 </li>
 </ul>
-</li>
-</ul>
-<h3><a id="%E5%88%86%E4%BA%AB%E9%9F%B3%E9%A2%91" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>分享音频</h3>
+<p><strong>第三步：开始直播</strong></p>
 <ul>
-<li>如何分享其它软件声音，比如放点音乐
+<li>点击「开始直播」</li>
+<li>如果账号未<strong>实名认证</strong>：
 <ul>
-<li>到 BlackHole 官网 <a href="https://existential.audio/blackhole">https://existential.audio/blackhole</a> 填写邮箱，可免费下载</li>
-<li>安装 BlackHole 并重启电脑（是驱动级别的软件！）</li>
-<li>重新开直播，并添加素材
-<ul>
-<li>选择音频设备</li>
-<li>选择 BlackHole 虚拟音频</li>
-</ul>
-</li>
-<li>打开 Control Center 并切换系统声音输出为 BlackHole
-<ul>
-<li>测试下直播链接能不能听到你放的音乐</li>
-<li>但是你的耳机就听不到了，哈哈</li>
+<li>会提示实名认证</li>
+<li>使用手机 App 扫码即可</li>
+<li>整个流程很快</li>
 </ul>
 </li>
 </ul>
-</li>
-<li>如何既可以把内置声音通过 BlackHole 播出去，同时可以自己听到？
+<p><strong>第四步：测试直播间</strong></p>
 <ul>
-<li>通过 Spotlight 打开音频 MIDI 设置
+<li>点击「分享直播间」
 <ul>
-<li><img src="media/17703719466606/3544bb2fc13206627b51919ec23a3da9_MD5.png" alt="3544bb2fc13206627b51919ec23a3da9_MD5" /></li>
-<li>在左下角点 <code>＋</code> 号并选择 创建多输出设备</li>
-<li>在右侧勾选
-<ul>
-<li>✅ <strong>BlackHole</strong></li>
-<li>✅ <strong>你的耳机</strong>（USB / 蓝牙 / 有线都行</li>
+<li>可以复制链接到浏览器打开</li>
+<li>或用微信扫码</li>
 </ul>
 </li>
-<li>注意以下设置
-<ul>
-<li><strong>主设备</strong>：选你的耳机（防止延迟）</li>
-<li><strong>漂移校正</strong>：只给 BlackHole 勾上 ✅</li>
+<li>用另一个设备打开，<strong>确认画面和声音是否正常</strong></li>
 </ul>
-</li>
-</ul>
-</li>
-<li>打开 Control Center 并切换系统声音输出为 BlackHole 新建的「多输出设备」
+<h2><a id="%E4%BA%8C%E3%80%81%E5%A6%82%E4%BD%95%E5%88%86%E4%BA%AB%E7%94%B5%E8%84%91%E9%87%8C%E7%9A%84%E5%A3%B0%E9%9F%B3%EF%BC%88%E6%AF%94%E5%A6%82%E6%94%BE%E9%9F%B3%E4%B9%90%EF%BC%89" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>二、如何分享电脑里的声音（比如放音乐）</h2>
+<p>如果你想在直播时放点 <strong>Apple Music / 网页音乐 / 视频声音</strong>，需要用到虚拟音频设备</p>
+<h3><a id="1%E5%AE%89%E8%A3%85-blackhole" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>1. 安装 BlackHole</h3>
 <ul>
-<li>测试下能不能同时听到</li>
+<li>官网：<a href="https://existential.audio/blackhole">https://existential.audio/blackhole</a></li>
+<li>填写邮箱即可免费下载</li>
+<li>安装完成后 <strong>必须重启电脑</strong>
+<ul>
+<li>因为它是驱动级别的软件</li>
 </ul>
 </li>
 </ul>
-</li>
-</ul>
-<h3><a id="%E9%A2%9D%E5%A4%96%E7%9F%A5%E8%AF%86%E7%82%B9" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>额外知识点</h3>
+<h3><a id="2%E8%AE%A9%E7%9B%B4%E6%92%AD%E5%90%AC%E5%88%B0%E7%B3%BB%E7%BB%9F%E5%A3%B0%E9%9F%B3" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>2. 让直播听到系统声音</h3>
 <ul>
-<li>下载 BlackHole 有 2ch、16ch 可以选，选什么？</li>
-<li>BlackHole 2ch 是什么
+<li>重新开启哔哩哔哩直播</li>
+<li>在直播界面添加素材中：
 <ul>
-<li>2ch = 双声道（左 / 右）的特点
-<ul>
-<li>🎧 和普通耳机 / 音箱一样</li>
-<li>🎵 Apple Music、网页音乐、视频，全是 2ch</li>
-<li>⚙️ 配置最简单</li>
-<li>🧠 几乎不可能配错</li>
+<li>音频设备选择 <strong>BlackHole</strong></li>
 </ul>
 </li>
+<li>打开 macOS 的 Control Center
+<ul>
+<li>系统声音输出切换为 <strong>BlackHole</strong></li>
 </ul>
 </li>
-<li>BlackHole 16ch 是什么
+<li>测试直播间：
+<ul>
+<li>观众能听到你播放的音乐</li>
+<li>但此时你自己的耳机是听不到的（正常现象 😂）</li>
+</ul>
+</li>
+</ul>
+<h2><a id="%E4%B8%89%E3%80%81%E6%97%A2%E8%83%BD%E6%92%AD%E5%87%BA%E5%8E%BB%EF%BC%8C%E5%8F%88%E8%83%BD%E8%87%AA%E5%B7%B1%E5%90%AC%E5%88%B0%E5%A3%B0%E9%9F%B3%EF%BC%88%E9%87%8D%E7%82%B9%EF%BC%89" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>三、既能播出去，又能自己听到声音（重点）</h2>
+<p>自己听不到 🙉 音乐，这可不行啊！！！</p>
+<p><img src="media/17703719466606/3544bb2fc13206627b51919ec23a3da9_MD5.png" alt="3544bb2fc13206627b51919ec23a3da9_MD5" /></p>
+<h3><a id="1%E5%88%9B%E5%BB%BA%E3%80%8C%E5%A4%9A%E8%BE%93%E5%87%BA%E8%AE%BE%E5%A4%87%E3%80%8D" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>1. 创建「多输出设备」</h3>
+<ul>
+<li>使用 Spotlight 搜索并打开「音频 MIDI 设置」</li>
+<li>左下角点击「＋」</li>
+<li>选择「创建多输出设备」</li>
+</ul>
+<h3><a id="2%E5%85%B3%E9%94%AE%E9%85%8D%E7%BD%AE" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>2. 关键配置</h3>
+<p>在右侧勾选以下设备：</p>
+<ul>
+<li>✅ BlackHole</li>
+<li>✅ 你的耳机（USB / 蓝牙 / 有线都可以）</li>
+</ul>
+<p>然后设置：</p>
+<ul>
+<li><strong>主设备</strong>：选择你的耳机（减少延迟）</li>
+<li><strong>漂移校正</strong>：只给 BlackHole 勾选 ✅</li>
+</ul>
+<h3><a id="3%E5%88%87%E6%8D%A2%E7%B3%BB%E7%BB%9F%E8%BE%93%E5%87%BA" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>3. 切换系统输出</h3>
+<ul>
+<li>打开 Control Center</li>
+<li>系统声音输出切换为：
+<ul>
+<li>新创建的「多输出设备」</li>
+</ul>
+</li>
+<li><strong>再次测试</strong>：
+<ul>
+<li>直播间能听到音乐</li>
+<li>你自己也能通过耳机听到</li>
+</ul>
+</li>
+</ul>
+<h2><a id="%E5%9B%9B%E3%80%81%E9%A2%9D%E5%A4%96%E7%9F%A5%E8%AF%86%E7%82%B9%EF%BC%9Ablackhole%E9%80%89-2ch%E8%BF%98%E6%98%AF-16ch%EF%BC%9F" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>四、额外知识点：BlackHole 选 2ch 还是 16ch？</h2>
+<h3><a id="1-blackhole-2ch%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>1. BlackHole 2ch 是什么？</h3>
+<ul>
+<li>2ch = 双声道（左 / 右），和普通耳机、音箱一致</li>
+<li>适合：
+<ul>
+<li>Apple Music</li>
+<li>网页音乐</li>
+<li>视频播放</li>
+</ul>
+</li>
+<li>优点：
+<ul>
+<li>配置最简单</li>
+<li>几乎不会出错</li>
+</ul>
+</li>
+<li>👉 <strong>新手默认选 2ch 就够了</strong></li>
+</ul>
+<h3><a id="2-blackhole-16ch%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>2. BlackHole 16ch 是什么？</h3>
 <ul>
 <li>16ch = 16 路独立音频通道</li>
-<li>你可以拿它干嘛？举个真实场景 👇</li>
+<li>适合对音频有精细控制需求的人</li>
 </ul>
-</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>通道</th>
-<th>用途</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>ch1–2</td>
-<td>Apple Music</td>
-</tr>
-<tr>
-<td>ch3–4</td>
-<td>游戏声音</td>
-</tr>
-<tr>
-<td>ch5–6</td>
-<td>浏览器</td>
-</tr>
-<tr>
-<td>ch7–8</td>
-<td>提示音</td>
-</tr>
-<tr>
-<td>ch9–16</td>
-<td>备用</td>
-</tr>
-</tbody>
-</table>
+<p>一个真实使用示例：</p>
 <ul>
-<li>用一个类比你秒懂
+<li>ch1–2：Apple Music</li>
+<li>ch3–4：游戏声音</li>
+<li>ch5–6：浏览器</li>
+<li>ch7–8：系统提示音</li>
+<li>ch9–16：备用</li>
+</ul>
+<h3><a id="3%E4%B8%80%E4%B8%AA%E5%A5%BD%E8%AE%B0%E7%9A%84%E7%B1%BB%E6%AF%94" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>3. 一个好记的类比</h3>
 <ul>
-<li>2ch = 一个水龙头：打开就有水，怎么都不会错</li>
-<li>16ch = 一个 16 路水阀面板：很强，但你要知道每根管子接哪</li>
+<li><strong>2ch</strong>：一个水龙头，打开就有水，怎么用都不容易错</li>
+<li><strong>16ch</strong>：16 路水阀面板，功能很强，但你得知道每根管子接哪</li>
 </ul>
-</li>
-<li>默认选 2ch 就行</li>
-</ul>
+<p><strong>不做专业音频路由，直接选 2ch</strong></p>
 
 ]]></content>
   </entry>
