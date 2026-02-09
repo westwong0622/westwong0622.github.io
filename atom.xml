@@ -4,13 +4,162 @@
   <title><![CDATA[West Wong]]></title>
   <link href="https://westwong0622.github.io/atom.xml" rel="self"/>
   <link href="https://westwong0622.github.io/"/>
-  <updated>2026-02-07T12:08:49+08:00</updated>
+  <updated>2026-02-07T12:09:07+08:00</updated>
   <id>https://westwong0622.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
     
   </author>
   <generator uri="http://www.mweb.im/">MWeb</generator>
+  
+  <entry>
+    <title type="html"><![CDATA[2026 春季书荐]]></title>
+    <link href="https://westwong0622.github.io/17704509320802.html"/>
+    <updated>2026-02-07T15:55:32+08:00</updated>
+    <id>https://westwong0622.github.io/17704509320802.html</id>
+    <content type="html"><![CDATA[
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[直播第二天 - 尝试批量发布动态]]></title>
+    <link href="https://westwong0622.github.io/17704382549049.html"/>
+    <updated>2026-02-07T12:24:14+08:00</updated>
+    <id>https://westwong0622.github.io/17704382549049.html</id>
+    <content type="html"><![CDATA[
+<h2><a id="%E4%B8%80%E3%80%81%E4%BC%98%E5%8C%96%E4%B9%8B%E5%89%8D%E7%9A%84%E7%AC%94%E8%AE%B0%E6%96%87%E7%AB%A0" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>一、优化之前的笔记文章</h2>
+<h3><a id="%E9%97%AE%E9%A2%98%EF%BC%9A%E7%BC%A9%E8%BF%9B%E5%90%8E%E9%81%97%E7%97%87" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>问题：缩进后遗症</h3>
+<p>我尝试使用 <strong>媒体同步工具</strong> 进行多渠道发布，但同步后发现排版效果很差。</p>
+<p>主要原因有两个：</p>
+<ul>
+<li>原始内容大量使用了 Markdown 缩进</li>
+<li>这是长期使用 <strong>Logseq</strong> 写笔记形成的习惯</li>
+</ul>
+<p>另外还有一个问题：<strong>文本本身也需要进一步优化</strong></p>
+<h3><a id="%E4%B8%B4%E6%97%B6%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>临时解决方法</h3>
+<p>把 Markdown 内容直接发给 ChatGPT，让它帮忙优化：</p>
+<ul>
+<li>缩进压平</li>
+<li>表达优化</li>
+</ul>
+<p><strong>使用的提示词</strong></p>
+<pre class="line-numbers"><code class="language-markdown">{{note_text}}
+---
+角色：文章优化大师
+需求：上面是我的 markdown 文档，采用的 logseq 写法。请改成普通缩进，以适配小红书、微信公众号的排版
+</code></pre>
+<h3><a id="%E6%96%B0%E5%87%BA%E7%8E%B0%E7%9A%84%E9%97%AE%E9%A2%98" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>新出现的问题</h3>
+<p>从 ChatGPT 回复中复制 Markdown 后：</p>
+<ul>
+<li>列表项之间会出现<strong>多余的空行</strong></li>
+<li>尝试使用 Obsidian 的 Linter 无法解决</li>
+<li>当前只能 <strong>手动删除空行</strong></li>
+</ul>
+<p>这是一个明显值得工程化解决的问题，我会想办法解决</p>
+<p>方案构思</p>
+<ul>
+<li>是否可以用 <strong>正则表达式</strong> 批量处理？</li>
+<li>是否可以写一个 <strong>小脚本</strong> 统一清洗？</li>
+<li>是否直接用 <strong>Claude Code</strong> 写一个进行清洗？</li>
+</ul>
+<h2><a id="%E4%BA%8C%E3%80%81%E5%AA%92%E4%BD%93%E8%BF%90%E8%90%A5%E5%B7%A5%E5%85%B7%E4%BD%93%E9%AA%8C" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>二、媒体运营工具体验</h2>
+<p>问了不少网友，也试用了几个工具。</p>
+<p>真实感受只有一句话：<strong>好用的内容同步工具真的很难找。</strong></p>
+<h3><a id="%E7%9B%AE%E5%89%8D%E5%94%AF%E4%B8%80%E6%8E%A8%E8%8D%90" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>目前唯一推荐</h3>
+<p><img src="media/17704382549049/Screenshot%202026-02-09%20at%2011.00.28.png" alt="Screenshot 2026-02-09 at 11.00.28" /></p>
+<p><strong>爱贝壳内容同步助手</strong></p>
+<p>Chrome 插件地址：<br />
+<a href="https://chromewebstore.google.com/detail/%E7%88%B1%E8%B4%9D%E5%A3%B3%E5%86%85%E5%AE%B9%E5%90%8C%E6%AD%A5%E5%8A%A9%E6%89%8B/jejejajkcbhejfiocemmddgbkdlhhngm">https://chromewebstore.google.com/detail/爱贝壳内容同步助手/jejejajkcbhejfiocemmddgbkdlhhngm</a></p>
+<p>版本说明：</p>
+<ul>
+<li>免费版：每日 3 次发布、3 个平台</li>
+<li>付费版（不限）：  <a href="https://copydog.art/publisher/vip">https://copydog.art/publisher/vip</a>
+<ul>
+<li>价格：99 元 / 年，可拼车降低成本</li>
+</ul>
+</li>
+</ul>
+<h3><a id="%E7%88%B1%E8%B4%9D%E5%A3%B3%E5%86%85%E5%AE%B9%E5%90%8C%E6%AD%A5%E5%8A%A9%E6%89%8B%E4%BD%BF%E7%94%A8%E6%B5%81%E7%A8%8B" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>爱贝壳内容同步助手使用流程</h3>
+<h4><a id="1%E9%80%89%E6%8B%A9%E5%86%85%E5%AE%B9%E5%BD%A2%E6%80%81" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>1. 选择内容形态</h4>
+<ul>
+<li>动态：类似 Twitter / X，可配图，适合日常输出</li>
+<li>文章：长图文，偏博客型，建议整理后发布</li>
+<li>短视频（未测试）</li>
+<li>播客（未测试）</li>
+</ul>
+<h4><a id="2%E9%80%89%E6%8B%A9%E5%8F%91%E5%B8%83%E6%B8%A0%E9%81%93" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>2. 选择发布渠道</h4>
+<ul>
+<li>点击渠道右侧「查看」</li>
+<li>登录账号并授权</li>
+<li>插件即可自动填充内容</li>
+</ul>
+<h4><a id="3%E5%8F%91%E5%B8%83%E5%8A%A8%E6%80%81" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>3. 发布动态</h4>
+<p><img src="media/17704382549049/Screenshot%202026-02-09%20at%2011.00.28.png" alt="Screenshot 2026-02-09 at 11.00.28" /></p>
+<p>编辑内容：</p>
+<ul>
+<li>填写标题（部分平台有）</li>
+<li>填写正文</li>
+<li>添加图片或视频</li>
+</ul>
+<p>发布流程：</p>
+<ul>
+<li>点击「开始同步」</li>
+<li>Chrome 自动打开所选平台并填充内容</li>
+<li>人工检查后点击发送</li>
+</ul>
+<p>建议：</p>
+<ul>
+<li>补充平台特有内容，如话题、圈子、标签</li>
+<li>高强度发布者可开启「直接发布」</li>
+</ul>
+<h4><a id="4%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>4. 发布文章</h4>
+<p><img src="media/17704382549049/Screenshot%202026-02-09%20at%2011.08.49.png" alt="Screenshot 2026-02-09 at 11.08.49" /></p>
+<p>发布前准备：</p>
+<ul>
+<li>使用 <strong>MWeb</strong> 生成静态网站</li>
+<li>发布到 <strong>GitHub Pages</strong></li>
+<li>将文章 URL 导入爱贝壳</li>
+</ul>
+<p>编辑阶段：</p>
+<ul>
+<li>填写标题、摘要、封面图</li>
+<li>开启 Markdown 模式</li>
+<li>图片使用原网页地址</li>
+</ul>
+<p>问题依旧存在：</p>
+<ul>
+<li>各平台对 Markdown 缩进支持很差</li>
+<li>排版效果不可控</li>
+</ul>
+<h3><a id="%E5%BD%93%E5%89%8D%E6%8A%98%E4%B8%AD%E6%96%B9%E6%A1%88%EF%BC%88%E4%BD%86%E4%B8%8D%E6%BB%A1%E6%84%8F%EF%BC%89" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>当前折中方案（但不满意）</h3>
+<ul>
+<li>先用插件同步，等待内容填充</li>
+<li>优先修正公众号排版</li>
+<li>从公众号复制到其他平台</li>
+<li>若平台支持 Markdown，粘贴 Markdown 并手动改图链</li>
+</ul>
+<p>结果：<strong>能用，但非常不优雅。</strong></p>
+<h2><a id="%E4%B8%89%E3%80%81%E5%86%85%E5%AE%B9%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E7%9A%84%E6%96%B0%E9%97%AE%E9%A2%98" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>三、内容资产管理的新问题</h2>
+<h3><a id="%E5%86%85%E5%AE%B9%E5%A6%82%E4%BD%95%E7%AE%A1%E7%90%86%EF%BC%9F" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>内容如何管理？</h3>
+<p>使用什么工具存储文本和图片：</p>
+<ul>
+<li>Apple Notes</li>
+<li>Obsidian</li>
+</ul>
+<h3><a id="%E5%8F%91%E5%B8%83%E7%8A%B6%E6%80%81%E5%A6%82%E4%BD%95%E7%AE%A1%E7%90%86%EF%BC%9F" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>发布状态如何管理？</h3>
+<ul>
+<li>发布队列
+<ul>
+<li>是否已发布</li>
+</ul>
+</li>
+<li>发布在哪些平台</li>
+</ul>
+<p>这还需要多实践尝试</p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[直播第一天 - 如何更新个人主页]]></title>
@@ -937,81 +1086,6 @@ npx cap open android # 或 npx cap open ios
 <hr />
 <p><img src="media/17236807479993/%E5%B7%B4%E8%8F%B2%E7%89%B9%E8%87%B4%E8%82%A1%E4%B8%9C%E7%9A%84%E4%BF%A1.png" alt="巴菲特致股东的信" /></p>
 <p>众所周知，巴菲特每年都会亲自执笔给伯克希尔的股东写一封信，迄今已写了 52 年。每一封致股东信都洋洋洒洒数万言，信中回顾公司业绩、投资策略，还会就许多热点话题表达观点。1996 年，巴菲特授权劳伦斯·坎宁安教授编撰他的信件，并出版了超级畅销书巴菲特致股东的信，书中全部文字原汁原味地保留巴菲特第一人称的叙述，将其投资思想与管理智慧分为公司治理、财务与投资、投资替代品、普通股、兼并与收购、估值与会计、税务等主题。从此坎宁安教授成为巴菲特的御用编辑，并得到巴菲特的授权进入伯克希尔进行深度调研采访，并创作姊妹篇超越巴菲特的伯克希尔一书，专门论述伯克希尔的经营管理之道</p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[创业记 202408]]></title>
-    <link href="https://westwong0622.github.io/17225879177233.html"/>
-    <updated>2024-08-02T16:38:37+08:00</updated>
-    <id>https://westwong0622.github.io/17225879177233.html</id>
-    <content type="html"><![CDATA[
-<p>自毕业初，我就有创业的想法了。但是这些年一直处于半创业的状态。我终究觉得这不是我想要的状态，我想要改变</p>
-<blockquote>
-<p>我要创业 !</p>
-</blockquote>
-<h2><a id="%E6%88%91%E6%83%B3%E6%B3%A8%E5%86%8C%E4%B8%80%E4%B8%AA%E5%85%AC%E5%8F%B8" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>我想注册一个公司</h2>
-<p>为什么我会想要注册一个公司呢 ?</p>
-<ul>
-<li>希望以此督促自己不要松懈
-<ul>
-<li>我是有梦想的人</li>
-<li>钱已经花出去了咯</li>
-</ul>
-</li>
-<li>为了让进度条往前走一点</li>
-</ul>
-<p>因为注册公司得有股东、监事，所以我得约人聊聊</p>
-<h2><a id="20240704%E7%BA%A6%E8%A7%81%E6%9C%8B%E5%8F%8B-z" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>20240704 约见朋友 Z</h2>
-<p>和 Z 聊了公司注册的事，顺便给他说了我的项目，获益不少</p>
-<ul>
-<li>公司的注册应该当遇到支付相关的问题时候再去搞，起步时不需要在这个事情上浪费时间</li>
-<li>需要为我的产品找到第一批客户，验证需求</li>
-<li>小红书是个不错的了解客户、推广产品的渠道</li>
-</ul>
-<h2><a id="20240729%E5%AE%8C%E6%88%90%E6%9C%8B%E5%8F%8B-f%E7%9A%84%E9%A1%B9%E7%9B%AE" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>20240729 完成朋友 F 的项目</h2>
-<p>这段时间一直在和朋友 F 弄一个智能家居照明的项目，所以一直都没有正式启动我的项目</p>
-<p>0729 日，终于把设计稿交付给开发了 !</p>
-<p>我长舒了一口气，因为我要上班、我要谈恋爱、我要做私活、我还要创业，好难啊 ☹️。这下精力可以多点了</p>
-<h2><a id="20240801%E7%BA%A6%E8%A7%81%E6%9C%8B%E5%8F%8B-t" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>20240801 约见朋友 T</h2>
-<p>正式启动项目，开始约技术人员我的朋友 T 出来见面聊<br />
-无奈他有事，时间改到下周了</p>
-<h2><a id="20240806%E7%BA%A6%E8%A7%81%E6%9C%8B%E5%8F%8B-t%E9%A1%BA%E4%BE%BF%E5%B8%A6%E4%B8%8A%E4%BA%86-l" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>20240806 约见朋友 T 顺便带上了 L</h2>
-<p>在群里和 T 约时间，被 L 看到了。哈哈哈，老灯，带上他一起吃饭吧。我只是简单地聊了下项目的方向是知识管理。没有聊太多的细节</p>
-<p>本次聊天的成果：</p>
-<ul>
-<li>要先做减法，规划一个 MVP</li>
-<li>要定期给他们展示我的工作进度</li>
-<li>要不要脸的想各种法子拉融资</li>
-<li>要出海，产品一定要出海</li>
-<li>先找到前 30 个用户，每年付费 $30 左右，把服务器成本覆盖掉</li>
-</ul>
-<blockquote>
-<p>加油加油加油，搞起</p>
-</blockquote>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[2024 夏季书荐]]></title>
-    <link href="https://westwong0622.github.io/17181637581908.html"/>
-    <updated>2024-06-12T11:42:38+08:00</updated>
-    <id>https://westwong0622.github.io/17181637581908.html</id>
-    <content type="html"><![CDATA[
-<p>@王瑞青</p>
-<p><img src="media/17181637581908/2024%E5%A4%8F%E5%AD%A3%E4%B9%A6%E8%8D%90.png" alt="2024夏季书荐" /></p>
-<p>三本书如下</p>
-<h2><a id="%E7%A5%9E%E5%A5%87%E7%9A%84%E5%8C%96%E5%AD%A6%E5%85%83%E7%B4%A0" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>神奇的化学元素</h2>
-<p><img src="media/17181637581908/%E7%A5%9E%E5%A5%87%E7%9A%84%E5%8C%96%E5%AD%A6%E5%85%83%E7%B4%A0.png" alt="神奇的化学元素" /></p>
-<p>视觉之旅：神奇的化学元素 (彩色典藏版) 以图片形式讲述了目前已知的所有元素的故事。从它们的来源到它们的用途和传奇故事，包罗万象，生动而有趣。此书的最大特色是其赏心悦目插图，它们充满具有摄人心魄的独特魅力，难得一见。此书作者是一位化学家，更是一位疯狂的元素收藏爱好者。他多年来费尽心血收集了 2000 多件与元素有关的各种标本和文物，其收藏可以与任何一个专业的博物馆媲美。此书的所有图片大部分就来源于他的这些收藏</p>
-<h2><a id="%E8%8B%B1%E6%A0%BC%E5%85%B0%E5%AE%AA%E6%94%BF%E5%8F%B2" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>英格兰宪政史</h2>
-<p><img src="media/17181637581908/%E8%8B%B1%E6%A0%BC%E5%85%B0%E5%AE%AA%E6%94%BF%E5%8F%B2.png" alt="英格兰宪政史" /></p>
-<p>这是剑桥大学梅特兰教授向学生讲授英格兰宪政史的课堂讲义的译著。原著作者将英格兰公法发展阶段划分为五个阶段，并对每个阶段立法的总体特征、王权、议会、中央及地方政府、司法等方面的宪政运作状况予以了总结介绍，并进行了深入细致的分析。清晰完美地梳理了英格兰法律发展和宪政运作脉络。本书虽非梅特兰精雕细琢之成熟作品，但并非简单的历史资料的堆砌，而是着眼于对法律运行过程的审视和探讨，背景资料翔实，分析细致入微并涵盖了大量的原创性观点，为我们学习和研究英格兰宪政史提供了很好的引领。其独特的阶段划分方法也为我们研究英国宪政史提供了不同寻常的观测点，对既有历史著述做出了重要补充。本书系统全面，条理清晰，翻译流畅，完全符合中国读者的阅读习惯。是广大比较法研究者、法学研究者以及法学爱好者、英国宪政史、法律发展史研究者以及英国政治爱好者不可多得的一本出色的著作</p>
-<h2><a id="%E5%AF%BB%E8%8E%B7%E4%B8%8E%E5%A4%B1%E8%90%BD" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>寻获与失落</h2>
-<p><img src="media/17181637581908/%E5%AF%BB%E8%8E%B7%E4%B8%8E%E5%A4%B1%E8%90%BD.png" alt="寻获与失落" /></p>
-<p>汇集十三部中篇，囊括五种世界观，一书纵览勒古恩写作全景。二十世纪中后期，在经济萧条、美苏冷战、核战威胁、太空竞赛、生物实验、环境污染等阴影的笼罩之下，一路高歌的科技进步幻觉被打破，人们开始重新思考科技发展，以及并不一定光明的人类未来，科幻文学的书写方式也随之一变，为 “黄金时代” 的 “硬” 科幻注入了丰富的人文主义色彩</p>
 
 ]]></content>
   </entry>
